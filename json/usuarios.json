@@ -1,0 +1,122 @@
+[
+    {
+        "user": "jeanp",
+        "password": "jeanp234",
+        "role": "usuario",
+        "name": "Jean P."
+    },
+    {
+        "user": "luism",
+        "password": "luism789",
+        "role": "restaurante",
+        "name": "Luis M."
+    },
+    {
+        "user": "carlosg",
+        "password": "carlosg321",
+        "role": "organizacion",
+        "name": "Carlos G."
+    },
+    {
+        "user": "andreaq",
+        "password": "andreaq123",
+        "role": "usuario",
+        "name": "Andrea Q."
+    },
+    {
+        "user": "mariap",
+        "password": "mariap456",
+        "role": "restaurante",
+        "name": "María P."
+    },
+    {
+        "user": "pedroz",
+        "password": "pedroz789",
+        "role": "usuario",
+        "name": "Pedro Z."
+    },
+    {
+        "user": "julioc",
+        "password": "julioc987",
+        "role": "organizacion",
+        "name": "Fundación AyudaYa"
+    },
+    {
+        "user": "angelab",
+        "password": "angelab123",
+        "role": "restaurante",
+        "name": "Angela B."
+    },
+    {
+        "user": "sofiad",
+        "password": "sofiad456",
+        "role": "usuario",
+        "name": "Sofia D."
+    },
+    {
+        "user": "ricardot",
+        "password": "ricardot321",
+        "role": "organizacion",
+        "name": "Ricardo T."
+    },
+    {
+        "user": "fundacionayudaya",
+        "password": "org001",
+        "role": "organizacion",
+        "name": "Fundación AyudaYa"
+    },
+    {
+        "user": "comedorsocialmanossolidarias",
+        "password": "org002",
+        "role": "organizacion",
+        "name": "Comedor Social Manos Solidarias"
+    },
+    {
+        "user": "bancodealimentoscolombia",
+        "password": "org003",
+        "role": "organizacion",
+        "name": "Banco de Alimentos Colombia"
+    },
+    {
+        "user": "casahogaresperanza",
+        "password": "org004",
+        "role": "organizacion",
+        "name": "Casa Hogar Esperanza"
+    },
+    {
+        "user": "refugionuevoamanecer",
+        "password": "org005",
+        "role": "organizacion",
+        "name": "Refugio Nuevo Amanecer"
+    },
+    {
+        "user": "comedorpopularlaesperanza",
+        "password": "org006",
+        "role": "organizacion",
+        "name": "Comedor Popular La Esperanza"
+    },
+    {
+        "user": "centrodeapoyosanjuan",
+        "password": "org007",
+        "role": "organizacion",
+        "name": "Centro de Apoyo San Juan"
+    },
+    {
+        "user": "fundacionmanosunidas",
+        "password": "org008",
+        "role": "organizacion",
+        "name": "Fundación Manos Unidas"
+    },
+    {
+        "user": "casarefugiosanandres",
+        "password": "org009",
+        "role": "organizacion",
+        "name": "Casa Refugio San Andrés"
+    },
+    {
+        "user": "bancodealimentosbarranquilla",
+        "password": "org010",
+        "role": "organizacion",
+        "name": "Banco de Alimentos Barranquilla"
+    }
+]

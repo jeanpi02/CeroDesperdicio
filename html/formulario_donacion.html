@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Donación</title>
+    <link rel="stylesheet" href="/css/formulario_donaciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Realizar Donación</h1>
+        <div id="user-info" class="user-info"></div>
+        <i class="fas fa-user"></i> <!-- Ícono de usuario -->
+        <p id="usuario-nombre"></p> <!-- Aquí se mostrará el nombre del usuario -->
+        <button id="logout-btn" class="logout-btn" onclick="logout()">
+            <i class="fas fa-sign-out-alt"></i> <!-- Ícono de cerrar sesión -->
+        </button>
+    </header>
+    <main>
+        <form id="donation-form">
+            <label for="organization">Donado a:</label>
+            <input type="text" id="organization" name="organization" readonly><br><br>
+
+            <label for="donor-name">Nombre / Nombre del restaurante:</label>
+            <input type="text" id="donor-name" name="donor-name" required><br><br>
+
+            <!-- Campo nuevo: Teléfono de contacto -->
+            <label for="contact-phone">Teléfono de contacto:</label>
+            <input type="tel" id="contact-phone" name="contact-phone" required><br><br>
+
+            <!-- Campo nuevo: Barrio -->
+            <label for="neighborhood">Barrio:</label>
+            <input type="text" id="neighborhood" name="neighborhood" required><br><br>
+
+            <!-- Campo nuevo: Dirección -->
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="address" required><br><br>
+
+            <label for="donation-type">Nombre de alimento a donar:</label>
+            <input type="text" id="donation-type" name="donation-type" required><br><br>
+
+            <label for="donation-quantity">Cantidad:</label>
+            <input type="number" min="1" id="donation-quantity" name="donation-quantity" required><br><br>
+
+            <!-- Radio buttons para seleccionar la unidad de medida -->
+            <label>Unidad de medida:</label><br>
+            <input type="radio" id="litros" name="unit" value="litros" required>
+            <label for="litros">Litros</label><br>
+
+            <input type="radio" id="kilogramos" name="unit" value="kilogramos" required>
+            <label for="kilogramos">Kilogramos</label><br>
+
+            <input type="radio" id="unidades" name="unit" value="unidades" required>
+            <label for="unidades">Unidades</label><br><br>
+
+            <!-- Input de fecha para colocar la fecha de caducidad -->
+            <label for="expiration-date">Fecha de Caducidad:</label>
+            <input type="date" id="expiration-date" name="expiration-date" required><br><br>
+
+            <input type="button" onclick="guardarDonacion()" value="Donar">
+        </form>
+    </main>
+    <script src="/js/script_get_org.js"></script>
+    <script src="/js/verifyLoged.js"></script>
+    <script src="/js/script_show_user.js"></script>
+    <script src="/js/script_send_donation.js"></script>
+</body>
+</html>
+

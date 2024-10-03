@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de gestión de donaciones</title>
+    <link rel="stylesheet" href="/css/donaciones_disponibles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Panel de gestión de donaciones</h1>
+        <!-- Contenedor para el nombre del usuario y el ícono en la parte superior derecha -->
+        <div id="user-info" class="user-info">
+            <i class="fas fa-user"></i> <!-- Ícono de usuario -->
+            <p id="usuario-nombre"></p> <!-- Aquí se mostrará el nombre del usuario -->
+            <button id="logout-btn" class="logout-btn" onclick="logout()">
+                <i class="fas fa-sign-out-alt"></i> <!-- Ícono de cerrar sesión -->
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="donaciones-section">
+            <h2>Donaciones Recibidas</h2>
+            <table id="donaciones-table">
+                <thead>
+                    <tr>
+                        <th>Nombre del Donante</th>
+                        <th>Teléfono</th>
+                        <th>Barrio</th>
+                        <th>Dirección</th>
+                        <th>Tipo de Donación</th>
+                        <th>Cantidad</th>
+                        <th>Unidad</th>
+                        <th>Fecha de Caducidad</th>
+                    </tr>
+                </thead>
+                <tbody id="donaciones-body">
+                    <!-- Aquí se mostrarán las donaciones -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CeroDesperdicio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/js/donaciones_disponibles.js"></script>
+    <script src="/js/script_show_user.js"></script>
+    <script src="/js/verifyLoged.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+[
+    {
+        "exchangeId": "EX001",
+        "itemName": "Arroz",
+        "quantity": "2 kg",
+        "expirationDate": "2024-10-15",
+        "description": "Arroz blanco en buen estado.",
+        "personName": "Sofía Díaz",
+        "contactPhone": "+57 311 234 5678",
+        "location": "Bogotá, Colombia",
+        "status": "disponible"
+    },
+    {
+        "exchangeId": "EX002",
+        "itemName": "Manzanas",
+        "quantity": "6 unidades",
+        "expirationDate": "2024-10-20",
+        "description": "Manzanas rojas frescas.",
+        "personName": "Andrea Quintero",
+        "contactPhone": "+57 300 456 7890",
+        "location": "Medellín, Colombia",
+        "status": "disponible"
+    },
+    {
+        "exchangeId": "EX003",
+        "itemName": "Leche",
+        "quantity": "3 litros",
+        "expirationDate": "2024-11-05",
+        "description": "Leche entera en botellas.",
+        "personName": "Pedro Zárate",
+        "contactPhone": "+57 320 987 6543",
+        "location": "Barranquilla, Colombia",
+        "status": "disponible"
+    },
+    {
+        "exchangeId": "EX004",
+        "itemName": "Huevos",
+        "quantity": "12 unidades",
+        "expirationDate": "2024-10-25",
+        "description": "Huevos frescos de granja.",
+        "personName": "Ricardo Torres",
+        "contactPhone": "+57 315 234 9876",
+        "location": "Cali, Colombia",
+        "status": "disponible"
+    },
+    {
+        "exchangeId": "EX005",
+        "itemName": "Zanahorias",
+        "quantity": "1 kg",
+        "expirationDate": "2024-11-10",
+        "description": "Zanahorias frescas del mercado local.",
+        "personName": "Juliana Gómez",
+        "contactPhone": "+57 310 345 6789",
+        "location": "Cartagena, Colombia",
+        "status": "disponible"
+    },
+    {
+        "exchangeId": "EX006",
+        "itemName": "Frijoles",
+        "quantity": "2 kg",
+        "expirationDate": "2025-01-01",
+        "description": "Frijoles rojos secos.",
+        "personName": "Carlos Mendoza",
+        "contactPhone": "+57 314 567 1234",
+        "location": "Bucaramanga, Colombia",
+        "status": "disponible"
+    }
+]
